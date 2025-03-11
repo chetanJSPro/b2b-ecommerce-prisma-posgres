@@ -1,5 +1,6 @@
-import { type MetadataRoute } from 'next'
+export const dynamic = 'force-dynamic';
 
+import { type MetadataRoute } from 'next'
 import { categories } from '@/config'
 import prisma from '@/lib/db'
 

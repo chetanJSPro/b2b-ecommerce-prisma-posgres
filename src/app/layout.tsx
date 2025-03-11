@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     'Accessories',
     'Clothing',
   ],
-  creator: 'Muhammad Farhan Gunawan',
-  publisher: 'Muhammad Farhan Gunawan',
+  creator: 'Muhammad Chetan Sharma',
+  publisher: 'Muhammad Chetan Sharma',
   openGraph: {
     title: 'Skaters',
     description: 'An open source e-commerce project built by inifarhan',

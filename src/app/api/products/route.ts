@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+
+
 import prisma from '@/lib/db'
 import { z } from 'zod'
 
@@ -49,7 +52,7 @@ export async function GET(req: Request) {
 
       result = products
     }
-    
+
     return Response.json(result)
   } catch (error) {
     if (error instanceof z.ZodError) {
